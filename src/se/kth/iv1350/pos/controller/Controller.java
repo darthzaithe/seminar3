@@ -12,4 +12,6 @@ public class Controller {
 
     }
 
+    public void makeNewSale()
+
 }
