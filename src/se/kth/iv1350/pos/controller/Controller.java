@@ -14,12 +14,19 @@ public class Controller {
 
     }
 
+    public void initiateProgram(){
+
+    }
+
     /**
      * Initiates a new Sale
      */
     public void makeNewSale(){
 
         Sale sale = new Sale();
+    }
+
+    public void endSale(){
 
     }
 
