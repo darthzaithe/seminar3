@@ -15,8 +15,18 @@ public class Sale {
 
 
     public Sale(){
+
+    }
+
+    private void setTimeOfSale(){
         timeOfSale = LocalDateTime.now();
     }
 
-    private void addItem(ItemDTO item)
+    private double getChange(Payment payment, double priceTotal){
+        return payment.amountPaid - priceTotal;
+    }
+
+    private void addItem(ItemDTO item){
+
+    }
 }
