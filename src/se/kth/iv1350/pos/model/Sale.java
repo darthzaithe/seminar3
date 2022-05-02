@@ -20,11 +20,12 @@ public class Sale {
 
     }
 
-    /**
-     * Sets the time of the current sale to the current time.
-     */
-    private void setTimeOfSale(){
-        timeOfSale = LocalDateTime.now();
+    public LocalDateTime getTimeOfSale(){
+        return LocalDateTime.now();
+    }
+
+    public void registerItem(int itemId, int quantity){
+
     }
 
     /**

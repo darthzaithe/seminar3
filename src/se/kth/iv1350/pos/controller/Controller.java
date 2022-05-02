@@ -26,6 +26,10 @@ public class Controller {
         Sale sale = new Sale();
     }
 
+    public void enterItem(int itemId, int quantity, Sale sale){
+        sale.registerItem(itemId, quantity);
+    }
+
     public void endSale(){
 
     }
